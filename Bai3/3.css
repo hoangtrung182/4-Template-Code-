@@ -44,7 +44,24 @@ body {
 	padding-right: 15px;
 	cursor: pointer;
 }
+.header-btn-extra {
+	display: none;
+}
 
+.btn-menu {
+	height: 47px;
+	width: 120px;
+	color: #000;
+	font-size: 20px;
+	background-color: transparent;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.banner img, .main-banner img{
+	max-width: 100%;
+}
+ 
 /*======== Main =========*/
 
 .main-row {
@@ -52,6 +69,12 @@ body {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 32px;
 	padding: 64px 0;
+}
+.main-item {
+	text-align: center;
+}
+.main-item img {
+	max-width: 100%;
 }
 
 
@@ -66,4 +89,10 @@ body {
 .footer-title {
 	font-size: 20px;
 	color: #fff;
+}
+
+
+/*=========Icon=======*/
+.fa-solid {
+	margin-right: 5px;
 }

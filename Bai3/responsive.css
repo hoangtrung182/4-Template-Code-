@@ -1,0 +1,30 @@
+
+
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+	.main-row {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 16px;
+	}
+}
+
+@media (max-width: 640px) {
+	.header {
+		margin: 0 6px;
+	}
+	.main-row {
+		grid-template-columns: 1fr ;
+	}
+	.header-menu {
+		display: none;
+	}
+	.header-btn-extra {
+		display: block;
+	}
+	.header-btn-extra:hover {
+		opacity: .6;
+	}
+}
